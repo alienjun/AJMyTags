@@ -12,7 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UIView *bgView;
 
-
 @end
 
 @implementation TagCell
