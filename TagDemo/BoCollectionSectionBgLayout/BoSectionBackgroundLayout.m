@@ -71,13 +71,12 @@ NSString *decorationViewOfKind = @"decorationBgView";
         //前一个cell的最右边
         NSInteger prevOrigin = CGRectGetMaxX(prevLayoutAttributes.frame);
         //需要做偏移
-        if(prevOrigin + maximumSpacing + currentLayoutAttributes.frame.size.width <= self.collectionViewContentSize.width - (self.sectionInset.right+self.sectionInset.left)) {
+        if(prevOrigin + maximumSpacing + currentLayoutAttributes.frame.size.width <= self.collectionViewContentSize.width - self.sectionInset.right) {
             if (currentLayoutAttributes.indexPath.section == prevLayoutAttributes.indexPath.section) {
                 CGRect frame = currentLayoutAttributes.frame;
                 frame.origin.x = prevOrigin + maximumSpacing;
                 currentLayoutAttributes.frame = frame;
             }
-            
         }
     }
     
