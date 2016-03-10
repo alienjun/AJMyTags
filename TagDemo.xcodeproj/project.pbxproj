@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0713061C919AC200B86FC2 /* AJTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0713051C919AC200B86FC2 /* AJTagsView.m */; };
+		FB0713091C919AD400B86FC2 /* AJTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0713081C919AD400B86FC2 /* AJTagsCell.m */; };
+		FB07130C1C919D0800B86FC2 /* AJTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB07130B1C919D0800B86FC2 /* AJTagModel.m */; };
+		FB07130F1C91A2AA00B86FC2 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB07130E1C91A2AA00B86FC2 /* ExampleViewController.m */; };
 		FB47166B1BA0028B0021DE7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB47166A1BA0028B0021DE7B /* main.m */; };
 		FB47166E1BA0028B0021DE7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB47166D1BA0028B0021DE7B /* AppDelegate.m */; };
 		FB4716711BA0028B0021DE7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4716701BA0028B0021DE7B /* ViewController.m */; };
@@ -14,8 +18,8 @@
 		FB4716761BA0028B0021DE7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4716751BA0028B0021DE7B /* Images.xcassets */; };
 		FB4716791BA0028B0021DE7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4716771BA0028B0021DE7B /* LaunchScreen.xib */; };
 		FB4716851BA0028B0021DE7B /* TagDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4716841BA0028B0021DE7B /* TagDemoTests.m */; };
-		FB471B201BA015190021DE7B /* BoSectionBackgroundLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FB471B1D1BA015190021DE7B /* BoSectionBackgroundLayout.m */; };
-		FB471B211BA015190021DE7B /* BoSectionBgReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB471B1F1BA015190021DE7B /* BoSectionBgReusableView.m */; };
+		FB471B201BA015190021DE7B /* AJSectionBackgroundLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FB471B1D1BA015190021DE7B /* AJSectionBackgroundLayout.m */; };
+		FB471B211BA015190021DE7B /* AJSectionBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB471B1F1BA015190021DE7B /* AJSectionBackgroundView.m */; };
 		FB471B241BA01D6C0021DE7B /* TagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB471B231BA01D6C0021DE7B /* TagModel.m */; };
 		FB471B271BA01DA10021DE7B /* TagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB471B261BA01DA10021DE7B /* TagCell.m */; };
 /* End PBXBuildFile section */
@@ -31,6 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB0713041C919AC200B86FC2 /* AJTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJTagsView.h; sourceTree = "<group>"; };
+		FB0713051C919AC200B86FC2 /* AJTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJTagsView.m; sourceTree = "<group>"; };
+		FB0713071C919AD400B86FC2 /* AJTagsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJTagsCell.h; sourceTree = "<group>"; };
+		FB0713081C919AD400B86FC2 /* AJTagsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJTagsCell.m; sourceTree = "<group>"; };
+		FB07130A1C919D0800B86FC2 /* AJTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJTagModel.h; sourceTree = "<group>"; };
+		FB07130B1C919D0800B86FC2 /* AJTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJTagModel.m; sourceTree = "<group>"; };
+		FB07130D1C91A2AA00B86FC2 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		FB07130E1C91A2AA00B86FC2 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
 		FB4716651BA0028B0021DE7B /* TagDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4716691BA0028B0021DE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB47166A1BA0028B0021DE7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,10 +56,10 @@
 		FB47167E1BA0028B0021DE7B /* TagDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4716831BA0028B0021DE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB4716841BA0028B0021DE7B /* TagDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagDemoTests.m; sourceTree = "<group>"; };
-		FB471B1C1BA015190021DE7B /* BoSectionBackgroundLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoSectionBackgroundLayout.h; sourceTree = "<group>"; };
-		FB471B1D1BA015190021DE7B /* BoSectionBackgroundLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoSectionBackgroundLayout.m; sourceTree = "<group>"; };
-		FB471B1E1BA015190021DE7B /* BoSectionBgReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoSectionBgReusableView.h; sourceTree = "<group>"; };
-		FB471B1F1BA015190021DE7B /* BoSectionBgReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoSectionBgReusableView.m; sourceTree = "<group>"; };
+		FB471B1C1BA015190021DE7B /* AJSectionBackgroundLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJSectionBackgroundLayout.h; sourceTree = "<group>"; };
+		FB471B1D1BA015190021DE7B /* AJSectionBackgroundLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJSectionBackgroundLayout.m; sourceTree = "<group>"; };
+		FB471B1E1BA015190021DE7B /* AJSectionBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJSectionBackgroundView.h; sourceTree = "<group>"; };
+		FB471B1F1BA015190021DE7B /* AJSectionBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJSectionBackgroundView.m; sourceTree = "<group>"; };
 		FB471B221BA01D6C0021DE7B /* TagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagModel.h; sourceTree = "<group>"; };
 		FB471B231BA01D6C0021DE7B /* TagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagModel.m; sourceTree = "<group>"; };
 		FB471B251BA01DA10021DE7B /* TagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagCell.h; sourceTree = "<group>"; };
@@ -93,7 +105,7 @@
 		FB4716671BA0028B0021DE7B /* TagDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FB471B1B1BA015190021DE7B /* BoCollectionSectionBgLayout */,
+				FB471B1B1BA015190021DE7B /* AJTags */,
 				FB471B251BA01DA10021DE7B /* TagCell.h */,
 				FB471B261BA01DA10021DE7B /* TagCell.m */,
 				FB471B221BA01D6C0021DE7B /* TagModel.h */,
@@ -106,6 +118,8 @@
 				FB4716681BA0028B0021DE7B /* Supporting Files */,
 				FB47166C1BA0028B0021DE7B /* AppDelegate.h */,
 				FB47166D1BA0028B0021DE7B /* AppDelegate.m */,
+				FB07130D1C91A2AA00B86FC2 /* ExampleViewController.h */,
+				FB07130E1C91A2AA00B86FC2 /* ExampleViewController.m */,
 			);
 			path = TagDemo;
 			sourceTree = "<group>";
@@ -136,14 +150,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FB471B1B1BA015190021DE7B /* BoCollectionSectionBgLayout */ = {
+		FB471B1B1BA015190021DE7B /* AJTags */ = {
 			isa = PBXGroup;
 			children = (
-				FB471B1C1BA015190021DE7B /* BoSectionBackgroundLayout.h */,
-				FB471B1D1BA015190021DE7B /* BoSectionBackgroundLayout.m */,
-				FB471B1E1BA015190021DE7B /* BoSectionBgReusableView.h */,
-				FB471B1F1BA015190021DE7B /* BoSectionBgReusableView.m */,
+				FB471B1C1BA015190021DE7B /* AJSectionBackgroundLayout.h */,
+				FB471B1D1BA015190021DE7B /* AJSectionBackgroundLayout.m */,
+				FB471B1E1BA015190021DE7B /* AJSectionBackgroundView.h */,
+				FB471B1F1BA015190021DE7B /* AJSectionBackgroundView.m */,
+				FB0713041C919AC200B86FC2 /* AJTagsView.h */,
+				FB0713051C919AC200B86FC2 /* AJTagsView.m */,
+				FB0713071C919AD400B86FC2 /* AJTagsCell.h */,
+				FB0713081C919AD400B86FC2 /* AJTagsCell.m */,
+				FB07130A1C919D0800B86FC2 /* AJTagModel.h */,
+				FB07130B1C919D0800B86FC2 /* AJTagModel.m */,
 			);
+			name = AJTags;
 			path = BoCollectionSectionBgLayout;
 			sourceTree = "<group>";
 		};
@@ -248,12 +269,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB471B241BA01D6C0021DE7B /* TagModel.m in Sources */,
+				FB07130F1C91A2AA00B86FC2 /* ExampleViewController.m in Sources */,
+				FB0713091C919AD400B86FC2 /* AJTagsCell.m in Sources */,
 				FB4716711BA0028B0021DE7B /* ViewController.m in Sources */,
 				FB47166E1BA0028B0021DE7B /* AppDelegate.m in Sources */,
-				FB471B201BA015190021DE7B /* BoSectionBackgroundLayout.m in Sources */,
+				FB471B201BA015190021DE7B /* AJSectionBackgroundLayout.m in Sources */,
+				FB07130C1C919D0800B86FC2 /* AJTagModel.m in Sources */,
+				FB0713061C919AC200B86FC2 /* AJTagsView.m in Sources */,
 				FB471B271BA01DA10021DE7B /* TagCell.m in Sources */,
 				FB47166B1BA0028B0021DE7B /* main.m in Sources */,
-				FB471B211BA015190021DE7B /* BoSectionBgReusableView.m in Sources */,
+				FB471B211BA015190021DE7B /* AJSectionBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +475,7 @@
 				FB47168A1BA0028B0021DE7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB47168B1BA0028B0021DE7B /* Build configuration list for PBXNativeTarget "TagDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +484,7 @@
 				FB47168D1BA0028B0021DE7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
