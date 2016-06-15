@@ -4,6 +4,8 @@
 
 ![Aaron Swartz](https://github.com/alienjun/MyTags/blob/master/Sceenshots/screenshot1.gif)
 
+
+
 1.其中利用UICollectionView的特性，实现了标签插回原位的效果。
 
 
@@ -16,3 +18,9 @@
 特别感谢：
 
 <https://github.com/s-atif-jamil/CollectionSectionView>
+
+
+还有一个可以给任何View添加类似nice 应用中的那种标签。<br/>
+![Aaron Swartz](https://github.com/alienjun/AJTagView/blob/master/Screenshots/screenshot1.gif)
+
+戳链接——> [https://github.com/alienjun/AJTagView](https://github.com/alienjun/AJTagView)
